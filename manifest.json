@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "标签页自动恢复",
+  "description": "自动保存最近一次有效标签会话，并在浏览器启动或重新打开窗口时恢复。",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "storage",
+    "windows"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "minimum_chrome_version": "114"
+}
